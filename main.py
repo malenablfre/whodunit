@@ -2,10 +2,10 @@ import flet as ft
 from pages.routes import views_handler
 
 def main(page: ft.Page):
-    page.title = "Home"
-    page.window_width = 400
-    page.window_height = 700
-    page.window_resizable = False
+    page.title = "home"
+    page.window.width = 400
+    page.window.height = 700
+    page.window.resizable = False
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     #page.bgcolor = "#2D142C"
